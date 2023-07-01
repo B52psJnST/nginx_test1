@@ -7,6 +7,7 @@ tee /root/scripts/rotate-nginx-logs.sh <<-'EOF'
 #!/bin/bash
 # Description: rotate nginx access logs
 #nginx日志切割脚本
+# can be used in production .
 
 
 NGX_PID=`cat /usr/local/nginx/logs/nginx.pid`
